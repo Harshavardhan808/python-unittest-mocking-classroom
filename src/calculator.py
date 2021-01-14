@@ -4,3 +4,7 @@ class Calculator:
 
     def difference(self, a, b):
         return a - b
+
+class MockCalculator:
+    def sum(self):
+        return 1
